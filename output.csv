@@ -1,0 +1,41 @@
+plan,biweekly_cost,deductible,copay,limit
+NALC CDHP,146,"4,000",20% coinsurance after deductible,NA
+MHBP HDHP,196,"4,000",$15 copay after deductible,40 visits per year
+GEHA HDHP,202,"3,300",5% coinsurance after deductible,60 visits per year
+Kaiser Prosper,146,200,$40 copay,30 visits per year per condition
+Blue Cross FEP Blue Focus,140,"1,000",$25 copay,25 visits per year
+Kaiser-Std,204,0,$30 copay,30 visits per year
+APWU CDHP,204,"4,400",15% coinsurance after deductible,60 visits per year
+GEHA Elevate,170,"1,000",$30 copay,30 days per year
+Aetna Direct CDHP,194,"3,200",20% coinsurance after deductible,60 visits per year
+Carefirst BlueChoice HDHP,205,"3,300",$35 copay after deductible,NA
+Compass Rose Std,140,"1,000",30% coinsurance after deductible,NA
+United HDHP,185,"4,000",$30 copay after deductible,20 visits per year per condition
+MHBP-Std,195,700,10% coinsurance after deductible,40 visits per year
+Foreign Service,231,600,10% coinsurance after deductible,125 visits per year
+United Choice Primary,193,"1,000",20% coinsurance after deductible,20 visits per year
+CareFirst BlueChoice Value Plus,212,0,$50 copay,60 visits per year
+Aetna HealthFund HDHP,242,"3,600",15% coinsurance after deductible,60 visits per year
+Kaiser-High,307,0,$20 copay,30 visits per year per condition
+Aetna Saver,155,"2,000",30% coinsurance after deductible,60 visits per year
+Aetna Open Access Basic,228,0,$55 copay,60 visits per year
+United Choice Plus Primary,225,"1,000",20% coinsurance after deductible,20 visits per year per condition
+MHBP Value Plan,146,"1,200",20% coinsurance after deductible,40 visits per year
+SAMBA-Std,218,900,20% coinsurance after deductible,30 visits per year
+United Choice Plus Advanced,230,"1,000",$25 copay after deductible,20 visits per year
+GEHA-Std,214,700,15% coinsurance after deductible,60 visits per year
+Compass Rose High,300,700,10% coinsurance after deductible,90 visits per year
+Aetna Advantage,141,"4,000",30% coinsurance after deductible,60 visits per year
+APWU-High,265,800,15% coinsurance after deductible,60 visits per year
+NALC-High,284,600,15% coinsurance after deductible,75 visits per year
+Blue Cross Basic,303,0,$50 copay,50 visits per year
+GEHA Elevate Plus,348,400,$50 copay,60 visits per year
+GEHA-High,376,700,10% coinsurance after deductible,60 visits per year
+SAMBA-High,388,600,15% coinsurance after deductible,50 visits per year
+Blue Cross-Std,425,700,$40 copay,75 visits per year
+Aetna HealthFund CDHP,512,"4,000",15% coinsurance after deductible,60 visits per year
+United Choice Open Access,524,0,$35 copay,60 consecutive days per condition
+Aetna Value Plan,523,"1,400",$40 copay,60 visits per year
+Carefirst BlueChoice-Std,570,0,$50 copay,60 visits per year
+Aetna Open Access-High,813,0,$30 copay,60 visits per year
+MD-IPA,786,0,$40 copay,60 visits per year per condition

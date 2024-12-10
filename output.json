@@ -1,0 +1,282 @@
+[
+    {
+        "plan": "NALC CDHP",
+        "biweekly_cost": "146",
+        "deductible": "4,000",
+        "copay": "20% coinsurance after deductible",
+        "limit": "NA"
+    },
+    {
+        "plan": "MHBP HDHP",
+        "biweekly_cost": "196",
+        "deductible": "4,000",
+        "copay": "$15 copay after deductible",
+        "limit": "40 visits per year"
+    },
+    {
+        "plan": "GEHA HDHP",
+        "biweekly_cost": "202",
+        "deductible": "3,300",
+        "copay": "5% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Kaiser Prosper",
+        "biweekly_cost": "146",
+        "deductible": "200",
+        "copay": "$40 copay",
+        "limit": "30 visits per year per condition"
+    },
+    {
+        "plan": "Blue Cross FEP Blue Focus",
+        "biweekly_cost": "140",
+        "deductible": "1,000",
+        "copay": "$25 copay",
+        "limit": "25 visits per year"
+    },
+    {
+        "plan": "Kaiser-Std",
+        "biweekly_cost": "204",
+        "deductible": "0",
+        "copay": "$30 copay",
+        "limit": "30 visits per year"
+    },
+    {
+        "plan": "APWU CDHP",
+        "biweekly_cost": "204",
+        "deductible": "4,400",
+        "copay": "15% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "GEHA Elevate",
+        "biweekly_cost": "170",
+        "deductible": "1,000",
+        "copay": "$30 copay",
+        "limit": "30 days per year"
+    },
+    {
+        "plan": "Aetna Direct CDHP",
+        "biweekly_cost": "194",
+        "deductible": "3,200",
+        "copay": "20% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Carefirst BlueChoice HDHP",
+        "biweekly_cost": "205",
+        "deductible": "3,300",
+        "copay": "$35 copay after deductible",
+        "limit": "NA"
+    },
+    {
+        "plan": "Compass Rose Std",
+        "biweekly_cost": "140",
+        "deductible": "1,000",
+        "copay": "30% coinsurance after deductible",
+        "limit": "NA"
+    },
+    {
+        "plan": "United HDHP",
+        "biweekly_cost": "185",
+        "deductible": "4,000",
+        "copay": "$30 copay after deductible",
+        "limit": "20 visits per year per condition"
+    },
+    {
+        "plan": "MHBP-Std",
+        "biweekly_cost": "195",
+        "deductible": "700",
+        "copay": "10% coinsurance after deductible",
+        "limit": "40 visits per year"
+    },
+    {
+        "plan": "Foreign Service",
+        "biweekly_cost": "231",
+        "deductible": "600",
+        "copay": "10% coinsurance after deductible",
+        "limit": "125 visits per year"
+    },
+    {
+        "plan": "United Choice Primary",
+        "biweekly_cost": "193",
+        "deductible": "1,000",
+        "copay": "20% coinsurance after deductible",
+        "limit": "20 visits per year"
+    },
+    {
+        "plan": "CareFirst BlueChoice Value Plus",
+        "biweekly_cost": "212",
+        "deductible": "0",
+        "copay": "$50 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Aetna HealthFund HDHP",
+        "biweekly_cost": "242",
+        "deductible": "3,600",
+        "copay": "15% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Kaiser-High",
+        "biweekly_cost": "307",
+        "deductible": "0",
+        "copay": "$20 copay",
+        "limit": "30 visits per year per condition"
+    },
+    {
+        "plan": "Aetna Saver",
+        "biweekly_cost": "155",
+        "deductible": "2,000",
+        "copay": "30% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Aetna Open Access Basic",
+        "biweekly_cost": "228",
+        "deductible": "0",
+        "copay": "$55 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "United Choice Plus Primary",
+        "biweekly_cost": "225",
+        "deductible": "1,000",
+        "copay": "20% coinsurance after deductible",
+        "limit": "20 visits per year per condition"
+    },
+    {
+        "plan": "MHBP Value Plan",
+        "biweekly_cost": "146",
+        "deductible": "1,200",
+        "copay": "20% coinsurance after deductible",
+        "limit": "40 visits per year"
+    },
+    {
+        "plan": "SAMBA-Std",
+        "biweekly_cost": "218",
+        "deductible": "900",
+        "copay": "20% coinsurance after deductible",
+        "limit": "30 visits per year"
+    },
+    {
+        "plan": "United Choice Plus Advanced",
+        "biweekly_cost": "230",
+        "deductible": "1,000",
+        "copay": "$25 copay after deductible",
+        "limit": "20 visits per year"
+    },
+    {
+        "plan": "GEHA-Std",
+        "biweekly_cost": "214",
+        "deductible": "700",
+        "copay": "15% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Compass Rose High",
+        "biweekly_cost": "300",
+        "deductible": "700",
+        "copay": "10% coinsurance after deductible",
+        "limit": "90 visits per year"
+    },
+    {
+        "plan": "Aetna Advantage",
+        "biweekly_cost": "141",
+        "deductible": "4,000",
+        "copay": "30% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "APWU-High",
+        "biweekly_cost": "265",
+        "deductible": "800",
+        "copay": "15% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "NALC-High",
+        "biweekly_cost": "284",
+        "deductible": "600",
+        "copay": "15% coinsurance after deductible",
+        "limit": "75 visits per year"
+    },
+    {
+        "plan": "Blue Cross Basic",
+        "biweekly_cost": "303",
+        "deductible": "0",
+        "copay": "$50 copay",
+        "limit": "50 visits per year"
+    },
+    {
+        "plan": "GEHA Elevate Plus",
+        "biweekly_cost": "348",
+        "deductible": "400",
+        "copay": "$50 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "GEHA-High",
+        "biweekly_cost": "376",
+        "deductible": "700",
+        "copay": "10% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "SAMBA-High",
+        "biweekly_cost": "388",
+        "deductible": "600",
+        "copay": "15% coinsurance after deductible",
+        "limit": "50 visits per year"
+    },
+    {
+        "plan": "Blue Cross-Std",
+        "biweekly_cost": "425",
+        "deductible": "700",
+        "copay": "$40 copay",
+        "limit": "75 visits per year"
+    },
+    {
+        "plan": "Aetna HealthFund CDHP",
+        "biweekly_cost": "512",
+        "deductible": "4,000",
+        "copay": "15% coinsurance after deductible",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "United Choice Open Access",
+        "biweekly_cost": "524",
+        "deductible": "0",
+        "copay": "$35 copay",
+        "limit": "60 consecutive days per condition"
+    },
+    {
+        "plan": "Aetna Value Plan",
+        "biweekly_cost": "523",
+        "deductible": "1,400",
+        "copay": "$40 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Carefirst BlueChoice-Std",
+        "biweekly_cost": "570",
+        "deductible": "0",
+        "copay": "$50 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "Aetna Open Access-High",
+        "biweekly_cost": "813",
+        "deductible": "0",
+        "copay": "$30 copay",
+        "limit": "60 visits per year"
+    },
+    {
+        "plan": "MD-IPA",
+        "biweekly_cost": "786",
+        "deductible": "0",
+        "copay": "$40 copay",
+        "limit": "60 visits per year per condition"
+    }
+]
