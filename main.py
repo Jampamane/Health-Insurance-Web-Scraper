@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+from rich.console import Console
 import pandas as pd
 import json
 import time
@@ -23,6 +24,8 @@ class HealthInsuranceScraper:
 
         self.data = []
 
+        self.console = Console()
+
         self.zip_code = zip_code
         self.full_time = full_time
         self.pay_frequency = pay_frequency
@@ -32,6 +35,10 @@ class HealthInsuranceScraper:
 
         self.options = Options()
         self.headless = headless
+
+        self.console.print("Creating the Selenium browser...")
+        self.console.print(f"Headless mode = {str(headless)}")
+
         if self.headless is True:
             self.options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=self.options)
@@ -39,8 +46,10 @@ class HealthInsuranceScraper:
         self.driver.get("https://www.checkbook.org/compareyourbenefits")
         time.sleep(1)
         while "https://www.checkbook.org/newhig2/hig.cfm" in self.driver.current_url:
+            self.console.print("Page is being stupid...", style="red")
             self.driver.quit()
             self.driver = webdriver.Chrome(options=self.options)
+            self.console.print("Remaking Selenium Browser... Please be patient...", style="yellow")
             time.sleep(1)
             self.driver.get("https://www.checkbook.org/compareyourbenefits")
             time.sleep(1)
@@ -50,6 +59,7 @@ class HealthInsuranceScraper:
         return (data["plan"] for data in self.data)
 
     def fill_information(self) -> None:
+        self.console.print("Filling in information...", style="yellow")
 
         # Zip code
         self.driver.find_element(By.ID, "Q6HN").send_keys(str(self.zip_code))
@@ -85,6 +95,7 @@ class HealthInsuranceScraper:
                 pass
 
     def scrape(self) -> None:
+        self.console.print("Fetching healthcare plans information...", style="green")
         links = self.driver.find_elements(By.TAG_NAME, "a")
 
         limit_bool = False
@@ -94,10 +105,10 @@ class HealthInsuranceScraper:
             href = link.get_attribute("href")
             if href and "compare.cfm?planIds=" in href:
                 plan_name = link.text.strip()
-                print(plan_name)
-
                 if plan_name in self.plan_names:
                     continue
+
+                self.console.print(plan_name)
 
                 link.click()
                 time.sleep(1)  # Allow some time for navigation if needed
@@ -154,7 +165,6 @@ class HealthInsuranceScraper:
                         "limit": limit,
                     }
                 )
-                print(self.data)
                 self.driver.back()
                 time.sleep(1)
                 if (
@@ -163,7 +173,8 @@ class HealthInsuranceScraper:
                 ):
                     return False
 
-        time.sleep(5)
+        time.sleep(3)
+        self.console.print("Finished fetching healthcare info!", style="green")
         return True
 
     def output_files(self):
@@ -175,9 +186,13 @@ class HealthInsuranceScraper:
         df = pd.DataFrame(self.data)
         df.to_csv("output/output.csv", index=False)
 
+        self.console.print("Output information to the ./output folder.")
+
     def recreate_driver(self):
+        self.console.print("Page is being stupid...", style="red")
         self.driver.quit()
         self.driver = webdriver.Chrome(options=self.options)
+        self.console.print("Remaking Selenium Browser... Please be patient...", style="yellow")
         time.sleep(1)
         self.driver.get("https://www.checkbook.org/compareyourbenefits")
         time.sleep(1)
