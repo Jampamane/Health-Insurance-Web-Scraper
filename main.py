@@ -30,7 +30,7 @@ def main():
         driver.find_element(By.ID, "Q1").send_keys("G")# Replace with actual ID
         driver.find_element(By.ID, "qPayFrequency").send_keys("B")# Replace with actual ID
         driver.find_element(By.ID, "Q2").send_keys("Family of Three")# Replace with actual ID
-        driver.find_element(By.ID, "Q4").send_keys("25")# Replace with actual ID
+        driver.find_element(By.ID, "Q4").send_keys("26")# Replace with actual ID
         driver.find_element(By.ID, "Q5").send_keys("A")# Replace with actual ID
         time.sleep(1)
         driver.find_element(By.CLASS_NAME, "btn").click()# Replace with actual ID
